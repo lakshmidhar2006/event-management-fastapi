@@ -1,0 +1,58 @@
+# ==========================
+# 🔒 Python / FastAPI Ignore
+# ==========================
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache / build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Local environment and secrets
+.env
+*.env
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs and temporary data
+*.log
+logs/
+*.sqlite3
+
+# Bytecode and cache
+*.pyc
+*.pyo
+__pycache__/
+
+# Coverage and testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# OS / Misc
+Thumbs.db
+desktop.ini
+
+# FastAPI / Uvicorn reload artifacts
+*.pid
+
+# Ignore Render / Railway deployment files if generated locally
+render.yaml
+
+# Optional - if you later use Docker
+docker-compose.yml
+Dockerfile
